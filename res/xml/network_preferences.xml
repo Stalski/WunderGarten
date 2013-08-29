@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="Sync your garden"
+        android:summary="Network connectivity required to sync your garden."
+        android:key="listPref"
+        android:defaultValue="Wi-Fi"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues"
+     />
+</PreferenceScreen>

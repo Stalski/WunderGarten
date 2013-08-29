@@ -1,0 +1,11 @@
+Resources:
+-----------
+
+- OAuth flow 
+https://github.com/ddewaele/AndroidOAuthFlowSample
+
+- Managing the network, tracking the preferences
+http://developer.android.com/training/basics/network-ops/managing.html
+
+- Async tasks with fragments done properly.
+http://blogactivity.wordpress.com/2011/09/01/proper-use-of-asynctask/

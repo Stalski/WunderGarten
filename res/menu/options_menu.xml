@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/mygarden_list"
+          android:icon="@drawable/home"
+          android:title="@string/mygarden_list"
+          android:showAsAction="ifRoom|withText"/>
+    
+    <item android:id="@+id/plants_list"
+          android:icon="@drawable/leaves"
+          android:title="@string/plants_list"
+          android:showAsAction="ifRoom|withText"/>
+    
+    <item android:id="@+id/todos_list"
+          android:icon="@drawable/date"
+          android:title="@string/plants_list"
+          android:showAsAction="ifRoom|withText"/>
+    
+    <item android:id="@+id/refresh"
+          android:icon="@drawable/action_refresh"
+          android:title="@string/refresh" />
+    
+    <item android:id="@+id/settings"
+          android:icon="@drawable/ic_menu_preferences"
+          android:title="@string/settings"
+          android:showAsAction="ifRoom|withText" />
+    
+</menu>

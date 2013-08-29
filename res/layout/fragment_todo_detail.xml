@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_marginLeft="16dp"
+	    android:layout_marginRight="16dp" >
+	
+	    <TextView
+	        android:id="@+id/todoTitle"
+	        style="?android:attr/textAppearanceLarge"
+	        tools:context=".TodoDetailFragment"
+	           android:textSize="14sp"
+	           android:textStyle="bold"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginTop="1dp" />
+
+	    <TextView android:id="@+id/action"
+	        style="?android:attr/textAppearanceLarge"
+	        tools:context=".TodoDetailFragment"
+	           android:textSize="14sp"
+	           android:textStyle="bold"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginTop="1dp" />
+	
+	    <TextView android:id="@+id/period"
+	        style="?android:attr/textAppearanceLarge"
+	        tools:context=".TodoDetailFragment"
+	           android:textSize="14sp"
+	           android:textStyle="bold"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginTop="1dp" />
+	
+	    <TextView android:id="@+id/dates"
+	        style="?android:attr/textAppearanceLarge"
+	        tools:context=".TodoDetailFragment"
+	           android:textSize="14sp"
+	           android:textStyle="bold"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginTop="1dp" />
+	
+	    <TextView android:id="@+id/frequency"
+	        style="?android:attr/textAppearanceLarge"
+	        tools:context=".TodoDetailFragment"
+	           android:textSize="14sp"
+	           android:textStyle="bold"
+	           android:layout_width="match_parent"
+	           android:layout_height="wrap_content"
+	           android:layout_marginTop="1dp" />
+
+	    <Button
+	        android:id="@+id/markAsDone"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/mark_as_done" />
+	    
+	    <Button
+	        android:id="@+id/remove"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/mark_as_done" />
+	
+	</LinearLayout>
+</ScrollView>
